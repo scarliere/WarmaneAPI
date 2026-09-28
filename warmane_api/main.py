@@ -40,7 +40,7 @@ async def lifespan(app):
 
 
 app = FastAPI(
-    title="Warmane Character API", version="0.4.0", lifespan=lifespan,
+    title="Warmane Character API", version="0.4.1", lifespan=lifespan,
     description="Look up a character by realm and name for combined data, or use /status for lightweight status polling. "
                 "Fields depend on Warmane; see README for normalization and limitations.",
     responses={status: {"model": ErrorResponse} for status in (404, 502, 503, 504)},

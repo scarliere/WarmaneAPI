@@ -2,7 +2,7 @@
 
 ## Package and transfer
 
-Run `python scripts/package_repo.py` from any directory. Transfer either `dist/WarmaneAPI-0.4.0.zip` (convenient on Windows) or `dist/WarmaneAPI-0.4.0.tar.gz` to the dev device and extract it. The archive includes application code, documentation, dependency pins, examples and offline test fixtures. It excludes `.venv`, caches, `.git`, agent/editor metadata, `.env` files and generated artifacts. `.env.example` is included.
+Run `python scripts/package_repo.py` from any directory. Transfer either `dist/WarmaneAPI-0.4.1.zip` (convenient on Windows) or `dist/WarmaneAPI-0.4.1.tar.gz` to the dev device and extract it. The archive includes application code, documentation, dependency pins, examples and offline test fixtures. It excludes `.venv`, caches, `.git`, agent/editor metadata, `.env` files and generated artifacts. `.env.example` is included.
 
 Keep credentials and local environment configuration separate. No Warmane credentials are needed. Recreate the Python environment on the destination; copying an existing virtual environment across devices is unreliable.
 
@@ -57,8 +57,8 @@ Omitting the realm uses `Icecrown`; override it with `?realm=Blackrock`. Unknown
 ## Optional container
 
 ```bash
-docker build -t warmane-api:0.4.0 .
-docker run --rm -p 127.0.0.1:8000:8000 --env-file .env.example warmane-api:0.4.0
+docker build -t warmane-api:0.4.1 .
+docker run --rm -p 127.0.0.1:8000:8000 --env-file .env.example warmane-api:0.4.1
 ```
 
 The container runs as a non-root user and exposes a health check. Its single worker preserves the in-process request budget. Do not scale replicas/workers without a shared cache and limiter. Docker requires network access to fetch the base image and packages; availability of Docker on the target device must be checked there.

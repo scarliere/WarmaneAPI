@@ -8,7 +8,7 @@ Every commit subject must start with the current project version from `pyproject
 v<MAJOR>.<MINOR>.<PATCH>: <type>: <description>
 ```
 
-Example: `v0.4.0: fix: handle missing character stats`.
+Example: `v0.4.1: fix: handle missing character stats`.
 
 Use the repository command to generate the subject automatically:
 
@@ -18,7 +18,7 @@ python scripts/commit.py fix "handle missing character stats"
 
 Use `python3` or the virtual environment's Python if required by the platform. Stage the intended files first; the command commits only staged changes. It does not stage, bump versions, create tags, or push. Use `--dry-run` to preview the subject.
 
-Use Semantic Versioning according to `CHANGELOG.md`. Change the version deliberately when preparing a new version, not automatically for every commit. Keep `pyproject.toml` and the FastAPI app version synchronized. Put the version first in tag annotations and release titles as well.
+Use Semantic Versioning according to `CHANGELOG.md`. Change the version deliberately when preparing a new version, not automatically for every commit. After a version has been tagged, assign the next intended version before committing follow-up changes; do not move existing version tags to include new work. Keep `pyproject.toml` and the FastAPI app version synchronized. Put the version first in tag annotations and release titles as well.
 
 ## Validation and scope
 

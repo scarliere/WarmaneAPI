@@ -2,6 +2,13 @@
 
 Versions use Semantic Versioning (`MAJOR.MINOR.PATCH`). Before 1.0.0, minor releases may change the API contract; patch releases contain compatible fixes. From 1.0.0 onward, incompatible API changes require a major version, compatible features a minor version, and compatible fixes a patch version. Release tags use the `v` prefix, for example `v0.4.0`. The response schema version is separate from the application version.
 
+## 0.4.1 — 2026-09-28
+
+- Added a portable commit helper that reads the project version and prefixes commit subjects automatically.
+- Added repository agent instructions to preserve the version-first convention across dev PCs.
+- Clarified that follow-up work after a tagged version uses the next intended version.
+- Updated setup and publishing examples; no API contract changes.
+
 ## 0.4.0 — 2026-09-28
 
 ### Added

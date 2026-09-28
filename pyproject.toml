@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "warmane-api"
-version = "0.4.0"
+version = "0.4.1"
 description = "A documented FastAPI wrapper for the public Warmane armory"
 readme = "README.md"
 requires-python = ">=3.11"

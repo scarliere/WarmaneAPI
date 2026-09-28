@@ -95,7 +95,7 @@ python examples/character_lookup.py --name Ahger --realm Icecrown
 python scripts/package_repo.py
 ```
 
-The example prints the primary response as JSON; add `--status` for a lightweight check. Packaging creates `dist/WarmaneAPI-0.4.0.zip` and `dist/WarmaneAPI-0.4.0.tar.gz`, excluding `.venv`, caches, secrets, editor/agent metadata and generated artifacts. Test fixtures and pinned dependency files are included. **Recreate the environment on the dev device; do not copy `.venv`.** See [migration instructions](docs/migration.md).
+The example prints the primary response as JSON; add `--status` for a lightweight check. Packaging creates `dist/WarmaneAPI-0.4.1.zip` and `dist/WarmaneAPI-0.4.1.tar.gz`, excluding `.venv`, caches, secrets, editor/agent metadata and generated artifacts. Test fixtures and pinned dependency files are included. **Recreate the environment on the dev device; do not copy `.venv`.** See [migration instructions](docs/migration.md).
 
 An optional [Dockerfile](Dockerfile) uses Python 3.12 and a non-root user. Keep one worker. Dependencies are pinned in `requirements.txt` and `requirements-dev.txt`; `pyproject.toml` records supported version ranges for package installations.
 
