@@ -1,0 +1,79 @@
+[
+  {
+    "file": "sengtuary-summary.json",
+    "url": "https://armory.warmane.com/api/character/Sengtuary/Icecrown/summary",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:34:52.594738+00:00"
+  },
+  {
+    "file": "sengtuary-profile.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/profile",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:34:58.320069+00:00"
+  },
+  {
+    "file": "sengtuary-talents.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/talents",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:35:03.981188+00:00"
+  },
+  {
+    "file": "sengtuary-achievements.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/achievements",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:35:09.684613+00:00"
+  },
+  {
+    "file": "sengtuary-statistics.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/statistics",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:35:15.325196+00:00"
+  },
+  {
+    "file": "sengtuary-mounts-and-companions.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/mounts-and-companions",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:35:20.891676+00:00"
+  },
+  {
+    "file": "sengtuary-reputation.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/reputation",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:35:26.649152+00:00"
+  },
+  {
+    "file": "sengtuary-match-history.html",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/match-history",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:35:32.350264+00:00"
+  },
+  {
+    "file": "sengtuary-achievement-summary.json",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/achievements",
+    "method": "POST",
+    "category": "summary",
+    "fetched_at": "2026-09-21T06:35:37.794911+00:00"
+  },
+  {
+    "file": "sengtuary-achievement-general.json",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/achievements",
+    "method": "POST",
+    "category": "92",
+    "fetched_at": "2026-09-21T06:35:43.239144+00:00"
+  },
+  {
+    "file": "sengtuary-statistics-summary.json",
+    "url": "https://armory.warmane.com/character/Sengtuary/Icecrown/statistics",
+    "method": "POST",
+    "category": "summary",
+    "fetched_at": "2026-09-21T06:35:49.022370+00:00"
+  }
+]

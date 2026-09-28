@@ -1,0 +1,1 @@
+"""Public Warmane armory wrapper."""

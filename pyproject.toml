@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "warmane-api"
+version = "0.4.0"
+description = "A documented FastAPI wrapper for the public Warmane armory"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "httpx>=0.28,<1", "uvicorn>=0.34,<1", "beautifulsoup4>=4.13,<5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["warmane_api*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

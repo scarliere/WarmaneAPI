@@ -1,0 +1,23 @@
+[
+  {
+    "file": "blackrock-profile.html",
+    "url": "https://armory.warmane.com/character/Cowysparttwo/Blackrock/profile",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:39:23.722384+00:00"
+  },
+  {
+    "file": "blackrock-talents.html",
+    "url": "https://armory.warmane.com/character/Cowysparttwo/Blackrock/talents",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:39:29.380772+00:00"
+  },
+  {
+    "file": "blackrock-match-history.html",
+    "url": "https://armory.warmane.com/character/Cowysparttwo/Blackrock/match-history",
+    "method": "GET",
+    "category": null,
+    "fetched_at": "2026-09-21T06:39:36.350932+00:00"
+  }
+]
