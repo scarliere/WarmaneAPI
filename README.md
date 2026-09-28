@@ -120,3 +120,5 @@ The previous guild endpoints, tests, and fixtures are preserved in the [guild re
 Cross-platform CI tests Python 3.11/3.12 on Windows, macOS, and Linux after push. Only Linux has been verified locally; check the GitHub Actions results before publishing a release. See [releases](docs/publishing.md#releases).
 
 Version history and the Semantic Versioning policy are in [CHANGELOG.md](CHANGELOG.md).
+
+For version-first commits on any dev PC, stage your changes and run `python scripts/commit.py <type> "description"`. The command reads the version from `pyproject.toml`; [AGENTS.md](AGENTS.md) records the convention for coding agents.

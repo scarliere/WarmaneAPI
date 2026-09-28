@@ -15,7 +15,7 @@ The configured remote is `https://github.com/scarliere/WarmaneAPI.git`. Use a no
 git init
 git add .
 git diff --cached --stat
-git commit -m "Initial character API"
+python scripts/commit.py feat "initial character API"
 ```
 
 Create an empty repository in GitHub, then follow its instructions to add the remote and push. Choose a license before offering reuse permissions; this project does not currently include a license. No repository has been created or pushed automatically.
@@ -37,3 +37,16 @@ Recommended process:
 There is no automatic release publishing workflow in this repository; CI only tests and checks packaging. No GitHub release has been created by this setup.
 
 Official references: [About releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) and [Managing releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+
+## Version-first commits on any dev PC
+
+`AGENTS.md` travels with a clone and instructs coding agents to use the version-first format. The portable helper reads the current version directly from `pyproject.toml`:
+
+```bash
+git add README.md
+python scripts/commit.py docs "update setup instructions"
+```
+
+For version 0.4.0 this produces `v0.4.0: docs: update setup instructions`. Add `--dry-run` to preview. Use your virtual environment's Python (Python 3.11+) on Windows, macOS, or Linux. Git must be installed and your Git author name/email configured on each PC.
+
+No alias or hook installation is required. Normal `git commit` is still available and does not enforce this format; use this helper for automatic formatting. The command commits only staged changes and never stages files, increments versions, creates tags, or pushes automatically.
